@@ -212,7 +212,7 @@ java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.SimpleQuery
 ```
 
 ```shell
-Exception in thread "main" java.sql.SQLException: No suitable driver found for jdbc:clickhouse://172.26.236.113:9000?client_name=ck-example
+Exception in thread "main" java.sql.SQLException: No suitable driver found for jdbc:clickhouse://<my-ip>:9000?client_name=ck-example
         at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:702)
         at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
         at com.mycompany.app.SimpleQuery.main(SimpleQuery.java:29)
